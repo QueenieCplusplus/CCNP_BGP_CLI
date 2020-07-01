@@ -45,8 +45,6 @@
                                                    \
                    AS 65101   ------------------- ISPR1
                    192.168.1.0                     |
-                                                   |
-                                                   |
                                                10.2.2.100/24
                                                    |
                                                    |
@@ -95,10 +93,14 @@
           Network       Nexthop    Metric  LocPref  Weight  Path
           192.168.2.0   0.0.0.0     0               32768    i
  
-   (4) 設定 IBGP, 或設定 EBGP 直接跳步驟 (5)
+   (4) 設定 IBGP
    
    
    
    (5) 設定 EBGP
+   
+        RA(config)#router bgp 65102
+        RA(config-router)#network 10.0.0.0
+        RA(config-router)#neighbor 10.2.2.100 remote-as 65200
 
         
