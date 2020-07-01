@@ -70,6 +70,7 @@
   # BGP 設定步驟
  
  (1) 首先先將 AS 65102 本身的設定 EIGRP 移除。
+ https://github.com/QueenieCplusplus/CCNP_EIGRP_2 (EIGRP 設定方式)
  
           RA(config)# no router eigrp 200
           ctrl + Z
