@@ -95,4 +95,10 @@
           Network       Nexthop    Metric  LocPref  Weight  Path
           192.168.2.0   0.0.0.0     0               32768    i
  
- 
+   (4) 設定 IBGP, 或設定 EBGP 直接跳步驟 (5)
+   
+   
+   
+   (5) 設定 EBGP
+
+        
