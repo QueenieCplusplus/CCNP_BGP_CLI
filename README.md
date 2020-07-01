@@ -119,7 +119,7 @@
         RA#sh ip bgp
         
           >
-          bgp table version is 5, local router id is 192.168.2.49
+          bgp table version is 12, local router id is 192.168.2.49
           status codes: (略)
           origin codes: i - IGP, e - EGP, ? - incomplete
           
