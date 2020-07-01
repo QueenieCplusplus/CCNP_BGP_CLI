@@ -125,8 +125,23 @@
           
           Network       Nexthop         Metric  LocPref  Weight  Path
           10.0.0.0      0.0.0.0          0               32768    i
-          192.168.2.0   192.168.2.34     0                  0     i
-          192.168.2.0   192.168.2.18     0                  0     i
-          192.168.2.0   192.168.2.50     0                  0     i
+          192.168.2.0   192.168.2.34     0       100        0     i
+          192.168.2.0   192.168.2.18     0       100        0     i
+          192.168.2.0   192.168.2.50     0       100        0     i
 
+   (8) 檢視 RB 的 BGP 資訊。
+   
+       
+        RB#sh ip bgp
         
+          >
+          bgp table version is 2, local router id is 192.168.102.102
+          status codes: (略)
+          origin codes: i - IGP, e - EGP, ? - incomplete
+          
+          Network       Nexthop         Metric  LocPref  Weight  Path
+          10.0.0.0      192.168.2.33     0        100        0     i
+                        192.168.2.17     0        100        0     i
+          192.168.2.0   192.168.2.66     0        100        0     i
+                        192.168.2.33     0        100        0     i
+                        192.168.2.17     0        100        0     i 
