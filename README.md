@@ -151,7 +151,7 @@
         RC#sh ip bgp
         
         
-   (10) 查看 BGP neighbor 狀態。
+   (10) 查看 RA 的 BGP neighbor 狀態。
    
    
         RA#sh ip bgp neighbors
@@ -165,3 +165,16 @@
         local host: 10.2.2.2(書上可能有錯) or (10.2.2.12) Local Port: 179
         Foreign host: 10.2.2.2.100, Foreign Port: 11003
         (其他細節資訊，略)
+
+   (11) 查看 RA 的 BGP 綜合資訊。
+   
+         RA#sh ip bgp summary
+         >
+         bgp router id is 192.168.2.49, local ASN is 65102
+         (略)
+         Neighbor     Version     AS      MsgRCV  MsgSent       後面欄位不重要，略
+         10.2.2.100       4      65200
+         192.168.2.18     4      65102
+         192.168.2.34     4      65102
+         192.168.2.50     4      65102
+   
