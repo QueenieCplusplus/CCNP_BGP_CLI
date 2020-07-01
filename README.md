@@ -186,3 +186,5 @@
    (13) 查看 RA 路由表。
    
         RA#sh ip route
+
+# BGP Aggregate 路徑集合
