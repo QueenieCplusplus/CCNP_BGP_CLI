@@ -71,4 +71,7 @@
  
  (1) 首先先將 AS 65102 本身的設定 EIGRP 移除。
  
+          RA(config)# no router eigrp 200
+          ctrl + Z
+ 
  
