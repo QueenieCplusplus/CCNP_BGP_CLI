@@ -186,6 +186,9 @@
    (13) 查看 RA 路由表。
    
         RA#sh ip route
+        
+        
+   (14) 查看 ISP R1 資訊。
 
 # BGP Aggregate 路徑集合
 
@@ -237,5 +240,11 @@
         RA(config#no aggregate address 192.168.2.0 255.255.255.0 summary-only
         // 路徑的集合
         ctrl + Z
+        
+        
+        
+ * 檢查
+ 
+ 返回步驟 (7)~(11)、(13)、()
 
  
