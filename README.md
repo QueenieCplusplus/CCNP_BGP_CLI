@@ -183,3 +183,6 @@
         RA#clear ip bgp *
         RA#sh ip bgp
         
+   (13) 查看 RA 路由表。
+   
+        RA#sh ip route
