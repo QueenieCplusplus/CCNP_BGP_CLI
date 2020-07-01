@@ -221,3 +221,14 @@
                                                /        \
                                               /          \
                                              RC----------RB
+
+* 設定
+
+
+        RA(config)#router bgp 65102
+        RA(config# aggregate address 192.168.2.0 255.255.255.0 summary-only
+        // 路徑的集合
+        ctrl + Z
+
+
+* 取消設定
