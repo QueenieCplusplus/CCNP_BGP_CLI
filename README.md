@@ -81,5 +81,6 @@
   
           RA(config)#router bgp 65102
           RA(config-router)# network 192.168.2.0 // 此為指定的網段
+          ctrl + Z
  
  
