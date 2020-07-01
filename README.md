@@ -86,5 +86,13 @@
    (3) 檢查 RA 上的設定。
    
           #sh ip bgp
+          
+          >
+          bgp table version is 5, local router id is 192.168.2.49
+          status codes: (略)
+          origin codes: i - IGP, e - EGP, ? - incomplete
+          
+          Network       Nexthop    Metric  LocPref  Weight  Path
+          192.168.2.0   0.0.0.0     0               32768    i
  
  
