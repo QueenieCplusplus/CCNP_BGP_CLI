@@ -112,8 +112,11 @@
    
         R#sh run
         
-        RA(config-router)#neighbor 10.2.2.100 remote-as 65200
-        RA(config-router)#neighbor 10.2.2.100 remote-as 65200
+        
+   (7) 檢視 RA 的 BGP 資訊。
+   
+       
+        RA#sh ip bgp
         
 
         
