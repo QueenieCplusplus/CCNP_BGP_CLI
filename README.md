@@ -93,14 +93,19 @@
           Network       Nexthop    Metric  LocPref  Weight  Path
           192.168.2.0   0.0.0.0     0               32768    i
  
-   (4) 設定 IBGP
+   (4) 設定 IBGP (串在同一 AS 中)
+  
+        RA(config)#router bgp 65102
+        RA(config-router)#neighbor 192.168.2.18 remote-as 65102 // 同上一行的 ASN
+        RA(config-router)#neighbor 192.168.2.34 remote-as 65102 
+        RA(config-router)#neighbor 192.168.2.50 remote-as 65102 
    
    
-   
-   (5) 設定 EBGP
+   (5) 設定 EBGP (連接相鄰不同 AS 間)
    
         RA(config)#router bgp 65102
         RA(config-router)#network 10.0.0.0
         RA(config-router)#neighbor 10.2.2.100 remote-as 65200
+        
 
         
