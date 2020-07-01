@@ -189,6 +189,12 @@
         
         
    (14) 查看 ISP R1 資訊。
+   
+        R1#sh run
+        
+        &&
+        
+        R1#sh ip route
 
 # BGP Aggregate 路徑集合
 
