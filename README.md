@@ -164,3 +164,4 @@
         --- More ---
         local host: 10.2.2.2(書上可能有錯) or (10.2.2.12) Local Port: 179
         Foreign host: 10.2.2.2.100, Foreign Port: 11003
+        (其他細節資訊，略)
