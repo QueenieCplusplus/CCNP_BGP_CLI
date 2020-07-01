@@ -107,5 +107,13 @@
         RA(config-router)#network 10.0.0.0
         RA(config-router)#neighbor 10.2.2.100 remote-as 65200
         
+        
+   (6) 分別檢視 RA、 RB、 RC 的路由設定。
+   
+        R#sh run
+        
+        RA(config-router)#neighbor 10.2.2.100 remote-as 65200
+        RA(config-router)#neighbor 10.2.2.100 remote-as 65200
+        
 
         
